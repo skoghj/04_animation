@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Teknik</title>
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="layout.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="manu_forside">
+        <ul class="nav">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="spil.html">Spil</a></li>
+            <li><a href="grafik.html">Grafik</a></li>
+            <li><a href="assets.html">Assets</a></li>
+            <li><a href="teknik.html">Teknik</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="diagrams">
+            <div class="akt">AKTIVITETSDIAGRAM</div>
+            <div class="aktivitetsdiagram"><img src="js/aktivitetsdiagram/aktivitetsdiagram.png"
+                    alt="Aktivitetsdiagram"><br>
+                <div class="tekst_col">
+                    <div class="col_1">
+                        <p><span style="font-weight: bold;">Aktivitetsdiagram:</span>
+                            Jeg har brugt programmet Draw.io til at oprette et aktivitetsdiagram, der beskriver det
+                            overordnede
+                            flow
+                            af mit spil. Hver aktivitet repræsenteres af en rund rektangel, hvor start og slut vises som
+                            runde
+                            former. Pile indikerer, hvordan aktiviteter strømmer fra en tilstand til en anden. Et "flag"
+                            bruges
+                            til
+                            at angive, at det er brugeren, der udfører handlinger for at skubbe programmet videre.
+                        </p>
+                    </div>
+                    <div class="col_2">
+                        <p><span style="font-weight: bold;">Spilregler:</span>
+                            Spillet varer 30 sekunder, og hvis en spiller har mere end 15 point ved afslutningen af
+                            spillet,
+                            har
+                            de
+                            vundet. Hvis en spiller ikke kan samle mindst 15 point på 30 sekunder, har de tabt. Klikker
+                            en
+                            spiller
+                            på bomber tre gange, mister de alle liv, og spillet er slut med en "game over"-tilstand.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="State">STATE MACHINE DIAGRAM</div>
+            <div class="MACHINE"><img src="js/state_diagram/State_Machine_Diagram.png" alt="State_Machine_Diagram">
+            </div><br>
+            <div class="tekst_col2">
+                <div class="col_3">
+                    <p><span style="font-weight: bold;">State Machine Diagram:</span>Et State Machine Diagram anvendes
+                        til
+                        at illustrere de forskellige tilstande, som et objekt eller system kan
+                        befinde sig i, og hvordan det skifter mellem disse tilstande.
+                        Mit State Machine Diagram indeholder detaljer om de nøglefunktioner, som mit spil er opbygget
+                        omkring.
+                </div>
+                <div class="col_4">
+                    <p><span style="font-weight: bold;">Funktioner, Aktiviteter og Events:</span>Dette diagram viser
+                        tydeligt funktioner, aktiviteter og begivenheder, der er kritiske for spillets logik. Det
+                        tilbyder
+                        en visuel repræsentation af, hvordan spillet reagerer på brugerinput, interne begivenheder og
+                        andre
+                        udløsere, og hvordan det ændrer tilstande i overensstemmelse hermed.</p>
+                </div>
+                <div class="col_5">
+                    <p><span style="font-weight: bold;">Guide til Implementering af JavaScript-kode:</span>State Machine
+                        Diagrammet fungerer som en guide for implementeringen af logikken i min JavaScript-kode. Det
+                        giver
+                        udvikleren et klart billede af, hvordan spillets tilstande og logik interagerer, hvilket gør det
+                        lettere at implementere og vedligeholde koden.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+    <footer>Lavet af HUI-JIN // Snuggys Eventyr 2023</footer>
+
+</body>
+
+</html>

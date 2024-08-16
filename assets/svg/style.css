@@ -1,0 +1,7 @@
+#titel {
+  background-image: url(Start_background.svg);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
